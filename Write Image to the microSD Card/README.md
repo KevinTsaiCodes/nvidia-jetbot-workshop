@@ -5,5 +5,5 @@
 ##### Select “Quick format”
 ##### Leave “Volume label” blank
 ##### Click “Format” to start formatting, and “Yes” on the warning dialog
-#### Use Etcher to write the Jetson Nano Developer Kit SD Card Image to your microSD card
+#### Use Etcher to write the Image to your microSD card
 ![Jetson_Nano-Getting_Started-Windows-Etcher](https://user-images.githubusercontent.com/53148219/68956857-d7670b00-0803-11ea-908b-ab1bc38d5520.png)
