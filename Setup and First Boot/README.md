@@ -13,3 +13,6 @@
 #### Select system language, keyboard layout, and time zone
 #### Create username, password, and computer name
 #### Log in
+## After Logging In
+#### You will see this screen. Congratulations!
+![Jetson_Nano-Getting_Started-Setup_Welcome_Screen](https://user-images.githubusercontent.com/53148219/68958584-5c075880-0807-11ea-9c6b-f2f3a3bd3dbf.png)
