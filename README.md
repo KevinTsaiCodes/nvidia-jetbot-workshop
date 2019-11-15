@@ -9,5 +9,6 @@ Running some AI examples on NVIDIA Jetson Nano
 ![擷取_2019_11_15_15_40_43_109](https://user-images.githubusercontent.com/53148219/68925598-4d488380-07be-11ea-9da6-cfcb48978e45.png)
 ## Write image in Jetson Nano
 #### Flashing Tools
-#### Format your microSD card using [SD Memory Card Formatter](https://www.sdcard.org/downloads/formatter/eula_windows/) from the SD Association.
-![Jetson_Nano-Getting_Started-Windows-SD_Card_Formatter](https://user-images.githubusercontent.com/53148219/68956250-a63a0b00-0802-11ea-92b2-7442bafe9ab0.png)
+#### 1.[SD Memory Card Formatter](https://www.sdcard.org/downloads/formatter/eula_windows/)
+#### 2.[Etcher](https://www.balena.io/etcher/)
+
