@@ -10,8 +10,4 @@ Running some AI examples on NVIDIA Jetson Nano
 ## Write image in Jetson Nano
 #### Flashing Tools
 #### Format your microSD card using [SD Memory Card Formatter](https://www.sdcard.org/downloads/formatter/eula_windows/) from the SD Association.
-    Download, install, and launch SD Memory Card Formatter for Windows.
-    Select card drive
-    Select “Quick format”
-    Leave “Volume label” blank
-    Click “Format” to start formatting, and “Yes” on the warning dialog
+![Jetson_Nano-Getting_Started-Windows-SD_Card_Formatter](https://user-images.githubusercontent.com/53148219/68956250-a63a0b00-0802-11ea-92b2-7442bafe9ab0.png)
