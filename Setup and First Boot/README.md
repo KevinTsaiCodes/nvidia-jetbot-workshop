@@ -7,3 +7,9 @@
 #### 4. Power on your computer display and connect it.
 #### 5. Connect the USB keyboard and mouse.
 #### 6. Connect your Micro-USB power supply (5V⎓2A). The Jetson Nano Developer Kit will power on and boot automatically.
+## First Boot
+#### A green LED next to the Micro-USB connector will light as soon as the developer kit powers on. When you boot the first time, the Jetson Nano Developer Kit will take you through some initial setup, including:
+#### Review and accept NVIDIA Jetson software EULA
+#### Select system language, keyboard layout, and time zone
+#### Create username, password, and computer name
+#### Log in
