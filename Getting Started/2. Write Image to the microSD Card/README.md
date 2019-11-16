@@ -1,4 +1,3 @@
-2.
 #### Format your microSD card using [SD Memory Card Formatter](https://www.sdcard.org/downloads/formatter/eula_windows/) from the SD Association.
 ![Jetson_Nano-Getting_Started-Windows-SD_Card_Formatter](https://user-images.githubusercontent.com/53148219/68956250-a63a0b00-0802-11ea-92b2-7442bafe9ab0.png)
 ##### 1.Download, install, and launch SD Memory Card Formatter for Windows.
