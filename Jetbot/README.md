@@ -4,7 +4,6 @@
 
 Interested in making projects like this with Jetson Nano?  Check out the [webinar](https://info.nvidia.com/ai-for-makers-learn-with-jetbot-reg-page.html?nvid=nv-int-84114) we released on 5/16/2019!  
 
-<img src="../..//wiki/images/jetson-jetbot-illustration_1600x1260.png" height="256">
 
 JetBot is an open-source robot based on NVIDIA Jetson Nano that is
 
