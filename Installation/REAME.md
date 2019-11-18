@@ -9,7 +9,7 @@
 #### OpenCV的全稱是Open Source Computer Vision Library，是一個跨平台的電腦視覺庫。
 #### OpenCV可用於開發即時的圖像處理、電腦視覺以及圖型識別程式。
 ##### opencv-python install command
-    $ sudo apt-get install python3-pip
+    $ sudo apt-get install python3-opencv
 ### Pandas, Matplotlib, Numpy, Scipy
 ##### Pandas, Matplotlib, Numpy, Scipy install command
     $ sudo apt-get install python3-pandas
