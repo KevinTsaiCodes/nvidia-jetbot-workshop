@@ -10,6 +10,7 @@
 #### OpenCV可用於開發即時的圖像處理、電腦視覺以及圖型識別程式。
 ##### opencv-python install command
     $ sudo apt-get install python3-pip
+### Pandas, Matplotlib, Numpy, Scipy
 ##### Pandas, Matplotlib, Numpy, Scipy install command
     $ sudo apt-get install python3-pandas
     $ sudo apt-get install python3-numpy
