@@ -1,7 +1,7 @@
 # Workshop Tools
 ## Tools you need:
 #### Keras, Tensorflow-gpu, OpenCV-Python, Pandas, Matplotlib, Numpy, Scipy
-### Install python3-pip, in order to install Keras, Tensorflow-gpu, OpenCV-Python, Pandas, Matplotlib, Numpy, Scipy
+### Install python3-pip. In order to install Keras, Tensorflow-gpu, OpenCV-Python, Pandas, Matplotlib, Numpy, Scipy
 ### OpenCV
 ![opencv](https://user-images.githubusercontent.com/53148219/69027016-4c0a9700-0a08-11ea-998e-0c0360039ce5.jpg)
 #### OpenCV的全稱是Open Source Computer Vision Library，是一個跨平台的電腦視覺庫。
