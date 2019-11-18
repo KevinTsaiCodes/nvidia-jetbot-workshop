@@ -24,7 +24,8 @@
     $ import keras
     tensorflow backend
     $ import tensorflow as tf
-##### If there isn't any error, that is, keras and tensorflow were installed Successfully
+    $ import cv2
+##### If there isn't any error, that is, opencv, keras and tensorflow were installed Successfully
     $ import pandas as pd
     $ import numpy as np
     $ import scipy as sp
