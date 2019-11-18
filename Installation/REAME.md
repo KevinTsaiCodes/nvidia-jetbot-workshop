@@ -11,6 +11,7 @@
 ##### opencv-python install command
     $ sudo apt-get install python3-opencv
 ### Pandas, Matplotlib, Numpy, Scipy
+<img width="565" alt="Skærmbillede-2017-09-04-kl -17 06 45" src="https://user-images.githubusercontent.com/53148219/69063934-4c328300-0a58-11ea-8bac-9b200d9fb714.png">
 ##### Pandas, Matplotlib, Numpy, Scipy install command
     $ sudo apt-get install python3-pandas
     $ sudo apt-get install python3-numpy
