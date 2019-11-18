@@ -18,3 +18,15 @@
     $ sudo apt-get install python3-numpy
     $ sudo apt-get install python3-scipy
     $ sudo apt-get install python3-matplotlib
+
+##### Verify your Install
+    $ python3
+    $ import keras
+    tensorflow backend
+    $ import tensorflow as tf
+##### If there isn't any error, that is, keras and tensorflow were installed Successfully
+    $ import pandas as pd
+    $ import numpy as np
+    $ import scipy as sp
+    $ from matplotlib import pyplot
+##### If there isn't any error, that is, pandas, numpy, scipy and matplotlib were installed Successfully
