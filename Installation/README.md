@@ -6,8 +6,6 @@
     $ sudo apt-get install python3-pip
 ### OpenCV
 ![opencv](https://user-images.githubusercontent.com/53148219/69027016-4c0a9700-0a08-11ea-998e-0c0360039ce5.jpg)
-#### OpenCV的全稱是Open Source Computer Vision Library，是一個跨平台的電腦視覺庫。
-#### OpenCV可用於開發即時的圖像處理、電腦視覺以及圖型識別程式。
 ##### opencv-python install command
     $ sudo apt-get install python3-opencv
 ### Pandas, Matplotlib, Numpy, Scipy
@@ -31,3 +29,6 @@
     $ import scipy as sp
     $ from matplotlib import pyplot
 ##### If there isn't any error, that is, pandas, numpy, scipy and matplotlib were installed Successfully
+
+
+## If you run our of E: Could not get lock var lib dpkg lock frontend — open (11: Resource temporarily unavailable) during the installation process, the following is the [solution](https://github.com/KevinTsaiCodes/nvidia-jetbot-workshop/wiki/E:-Could-not-get-lock--var-lib-dpkg-lock-frontend-%E2%80%94-open-(11:-Resource-temporarily-unavailable)).
