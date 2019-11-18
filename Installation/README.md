@@ -31,4 +31,6 @@
 ##### If there isn't any error, that is, pandas, numpy, scipy and matplotlib were installed Successfully
 
 
-## If you run out of E: Could not get lock var lib dpkg lock frontend — open (11: Resource temporarily unavailable) during the installation process, the following is the [solution](https://github.com/KevinTsaiCodes/nvidia-jetbot-workshop/wiki/E:-Could-not-get-lock--var-lib-dpkg-lock-frontend-%E2%80%94-open-(11:-Resource-temporarily-unavailable)).
+### If you run out of
+### E: Could not get lock var lib dpkg lock frontend — open (11: Resource temporarily unavailable)
+### during the installation process, the following is the [solution](https://github.com/KevinTsaiCodes/nvidia-jetbot-workshop/wiki/E:-Could-not-get-lock--var-lib-dpkg-lock-frontend-%E2%80%94-open-(11:-Resource-temporarily-unavailable)).
