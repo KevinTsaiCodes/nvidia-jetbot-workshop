@@ -1,1 +1,41 @@
 
+克隆倉庫
+要下載代碼，請在Jetson上導航到您選擇的檔夾。 首先，確保已安裝git和cmake：
+ 
+然後克隆jetson-inference項目：
+ 
+Python開發套件
+該項目的Python功能是通過Python擴展模塊實現的，該模塊使用Python C API提供與本機C ++代碼的綁定。 在配置項目時，存儲庫會搜索在系統上安裝了開發包的Python版本，然後將為存在的每個Python版本（例如Python 2.7、3.6和3.7）構建綁定。 它還將為已安裝的numpy版本構建numpy綁定。
+默認情況下，Ubuntu 預先安裝了libpython-dev和python-numpy軟件包（適用於Python 2.7）。 儘管Python 3.6解釋器已由Ubuntu預先安裝，但Python 3.6開發包（libpython3-dev）python3-numpy並非如此。 使用Python C API構建綁定需要這些開發包。 
+因此，如果您希望項目為Python 3.6創建綁定，請在繼續之前安裝以下軟件包：
+ 
+安裝這些額外的軟件包將使倉庫可以為Python 3.6以及Python 2.7（已預先安裝）構建擴展綁定。 然後，在構建過程之後，jetson.inferenceand  jetson.utils軟件包將可在您的Python環境中使用。 
+
+使用CMake進行配置
+接下來，在項目內創建一個構建目錄並運行cmake以配置構建。 當cmake運行時，腳本啟動（CMakePreBuild.sh），將安裝任何需要的依賴和下載DNN模型為您服務。 
+ 
+
+
+下載模型
+該項目帶有許多經過預訓練的網絡，您可以選擇通過模型下載器工具（download-models.sh）下載並安裝。 默認情況下，並非最初選擇所有模型進行下載以節省磁盤空間。 您可以選擇所需的模型，或者稍後再次運行該工具以再次下載更多模型。 
+最初配置項目時，cmake將自動為您運行下載程式工具：
+ 
+要稍後再運行模型下載器工具，可以使用以下命令：
+ 
+安裝PyTorch
+如果您使用的是JetPack 4.2或更高版本，現在將運行另一個工具，如果您想在本教程後面的內容中使用轉移學習來重新訓練網絡，可以選擇在您的Jetson上安裝PyTorch  。 此步驟是可選的，如果您不想執行遷移學習步驟，則無需安裝PyTorch，可以跳過此步驟。 
+如果需要，請選擇要安裝的Python 2.7和/或Python 3.6的PyTorch軟件包版本，然後單擊Enter繼續。 否則，請不要選擇這些選項，這將跳過PyTorch的安裝。 
+ 
+如果您決定要在其他時間安裝PyTorch，也可以稍後再次運行此工具：
+ 
+編譯項目
+確保您仍在jetson-inference/build上述步驟3中創建的目錄中。 
+然後運行，make然後sudo make install構建庫，Python擴展綁定和代碼示例：
+ 
+
+*接下來，我們將使用該imageNet對像在Python或C ++中執行圖像識別。 
+在Jetson上使用主控台程式
+首先，讓我們嘗試使用該imagenet-console程式在一些示例圖像上測試imageNet識別。 它加載圖像，使用TensorRT和imageNet類執行推理，然後覆蓋分類結果並保存輸出圖像。 該項目隨附images/目錄下的示例圖像供您使用。 
+經過建設項目，確保您的終端位於aarch64/bin目錄：
+ 
+然後開始運行，例如:
