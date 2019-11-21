@@ -1,7 +1,7 @@
 
 克隆倉庫
 要下載代碼，請在Jetson上導航到您選擇的檔夾。 首先，確保已安裝git和cmake：
- 
+ ！[image]（Screenshot from 2019-11-19 22-09-59)
 然後克隆jetson-inference項目：
  
 Python開發套件
