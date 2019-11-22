@@ -9,23 +9,23 @@ y_data = np.square(x_data) + noise
 x = tf.placeholder(tf.float32, [None, 1])
 y = tf.placeholder(tf.float32, [None, 1])
  
-# 输入层一个神经元，输出层一个神经元，中间10个
-# 第一层
+# 輸入層一個神經元，输出層一個神經元，中間十個
+# 第一層
 Weights_L1 = tf.Variable(tf.random.normal([1, 10]))
 Biases_L1 = tf.Variable(tf.zeros([1, 10]))
 Wx_plus_b_L1 = tf.matmul(x, Weights_L1) + Biases_L1
 L1 = tf.nn.tanh(Wx_plus_b_L1)
  
-# 第二层
+# 第二層
 Weights_L2 = tf.Variable(tf.random.normal([10, 1]))
 Biases_L2 = tf.Variable(tf.zeros([1, 1]))
 Wx_plus_b_L2 = tf.matmul(L1, Weights_L2) + Biases_L2
 pred = tf.nn.tanh(Wx_plus_b_L2)
  
-# 损失函数
+# 代價函數
 loss = tf.reduce_mean(tf.square(y - pred))
  
-# 训练
+# 訓練
 train = tf.train.GradientDescentOptimizer(0.1).minimize(loss)
  
 with tf.Session() as sess:
