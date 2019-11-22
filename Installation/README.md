@@ -7,11 +7,11 @@
 ##### upgrade pip3
     $ python3 -m pip install --upgrade pip 
     $ sudo vim /usr/bin/pip3 
-before:
+    before:
     from pip import main
     if __name__ == '__main__':
         sys.exit(main())
-after:
+    after:
     from pip import __main__
     if __name__ == '__main__':
        sys.exit(__main__._main())
