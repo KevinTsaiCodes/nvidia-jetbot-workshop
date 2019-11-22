@@ -4,6 +4,17 @@
 ### Install python3-pip. In order to install Keras, Tensorflow-gpu, OpenCV-Python, Pandas, Matplotlib, Numpy, Scipy
 ##### pip3 install command
     $ sudo apt-get install python3-pip
+##### upgrade pip3
+    $ python3 -m pip install --upgrade pip 
+    $ sudo vim /usr/bin/pip3 
+    before:
+    from pip import main
+    if __name__ == '__main__':
+        sys.exit(main())
+     after:
+     from pip import __main__
+     if __name__ == '__main__':
+        sys.exit(__main__._main())
 ### OpenCV
 ![opencv](https://user-images.githubusercontent.com/53148219/69027016-4c0a9700-0a08-11ea-998e-0c0360039ce5.jpg)
 ##### opencv-python install command
@@ -16,7 +27,17 @@
     $ sudo apt-get install python3-numpy
     $ sudo apt-get install python3-scipy
     $ sudo apt-get install python3-matplotlib
-
+### Keras, Tnsorflow-GPU
+##### Keras, Tensorflow-GPU install command
+#### Install keras tools:
+    $ sudo apt-get install python3-h5py
+#### Install keras
+    $ sudo -H pip3 install keras
+#### Install tensorflow-gpu tools:
+#### Install CUDA for GPU command
+    $ export PATH=${PATH}:/usr/local/cuda/bin
+    $ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda/lib64
+    $ sudo -H pip3 install 
 ##### Verify your Install
     $ python3
     $ import keras
