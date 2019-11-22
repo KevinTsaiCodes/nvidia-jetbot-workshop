@@ -48,14 +48,15 @@
     tensorflow backend
     $ import tensorflow as tf
     $ import cv2
-##### If there isn't any error, that is, opencv, keras and tensorflow were installed Successfully
+##### If there isn't any error, that is, opencv, keras and tensorflow-gpu were installed Successfully
     $ import pandas as pd
     $ import numpy as np
     $ import scipy as sp
     $ from matplotlib import pyplot
 ##### If there isn't any error, that is, pandas, numpy, scipy and matplotlib were installed Successfully
-
-
+### Jupyter-Notebook
+#### Install Jupyter-Notebook:
+    $ sudo apt-get install jupyter
 ### If you run out of
 ### E: Could not get lock var lib dpkg lock frontend — open (11: Resource temporarily unavailable)
 ### during the installation process, the following is the [solution](https://github.com/KevinTsaiCodes/nvidia-jetbot-workshop/wiki/E:-Could-not-get-lock--var-lib-dpkg-lock-frontend-%E2%80%94-open-(11:-Resource-temporarily-unavailable)).
