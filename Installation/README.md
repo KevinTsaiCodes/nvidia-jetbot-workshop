@@ -7,11 +7,11 @@
 ##### upgrade pip3
     $ python3 -m pip install --upgrade pip 
     $ sudo vim /usr/bin/pip3 
-    before:
+##### before:
     from pip import main
     if __name__ == '__main__':
         sys.exit(main())
-    after:
+##### after:
     from pip import __main__
     if __name__ == '__main__':
        sys.exit(__main__._main())
@@ -35,9 +35,13 @@
     $ sudo -H pip3 install keras
 #### Install tensorflow-gpu tools:
 #### Install CUDA for GPU command
+    $ vi .bashrc
     $ export PATH=${PATH}:/usr/local/cuda/bin
     $ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda/lib64
-    $ sudo -H pip3 install 
+    $ nvcc -V # make sure CUDA has been installed
+#### Install tensorflow-gpu:
+    $ sudo apt-get install python3-pip libhdf5-serial-dev hdf5-tools
+    $ pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v42 tensorflow-gpu==1.13.1+nv19.3 --user
 ##### Verify your Install
     $ python3
     $ import keras
