@@ -47,6 +47,10 @@
     $ import scipy as sp
     $ from matplotlib import pyplot
 ##### If there isn't any error, that is, pandas, numpy, scipy and matplotlib were installed Successfully
+### Test a code
+    $ cd ~
+    $ cd nvidia-jetbot-workshop/Installation
+    $ python3 verify.py 
 ### Jupyter-Notebook
 #### Install Jupyter-Notebook:
     $ sudo apt-get install jupyter
