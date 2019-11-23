@@ -8,6 +8,8 @@
 ![opencv](https://user-images.githubusercontent.com/53148219/69027016-4c0a9700-0a08-11ea-998e-0c0360039ce5.jpg)
 ##### opencv-python install command
     $ sudo apt-get install python3-opencv
+##### for pc
+    $ pip3 install opencv-python
 ### Pandas, Matplotlib, Numpy, Scipy
 <img width="565" alt="Skærmbillede-2017-09-04-kl -17 06 45" src="https://user-images.githubusercontent.com/53148219/69063934-4c328300-0a58-11ea-8bac-9b200d9fb714.png">
 
@@ -16,12 +18,19 @@
     $ sudo apt-get install python3-numpy
     $ sudo apt-get install python3-scipy
     $ sudo apt-get install python3-matplotlib
+##### for pc
+    $ pip3 install pandas
+    $ pip3 install numpy
+    $ pip3 install scipy
+    $ pip3 install matplotlib
 ### Keras, Tnsorflow-GPU
 ##### Keras, Tensorflow-GPU install command
 #### Install keras tools:
     $ sudo apt-get install python3-h5py
 #### Install keras
     $ sudo -H pip3 install keras
+##### for pc
+    $ pip3 install keras
 #### Install tensorflow-gpu tools:
 #### Install CUDA for GPU command
     $ cd ~ && vi .bashrc
@@ -35,6 +44,9 @@
 #### Install tensorflow-gpu:
     $ sudo apt-get install python3-pip libhdf5-serial-dev hdf5-tools
     $ pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v42 tensorflow-gpu==1.13.1+nv19.3 --user
+    
+##### for pc
+    $ pip3 install tensorflow
 ##### Verify your Install
     $ python3
     $ import keras
