@@ -24,9 +24,13 @@
     $ sudo -H pip3 install keras
 #### Install tensorflow-gpu tools:
 #### Install CUDA for GPU command
+    $ cd ~ && vi .bashrc
     $ vi .bashrc
     $ export PATH=${PATH}:/usr/local/cuda/bin
     $ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/cuda/lib64
+###### Also do this on Terminal
+![cuda](https://user-images.githubusercontent.com/53148219/69472488-cec08880-0d5f-11ea-8b76-337be6242c19.png)
+#### Verify
     $ nvcc -V # make sure CUDA has been installed
 #### Install tensorflow-gpu:
     $ sudo apt-get install python3-pip libhdf5-serial-dev hdf5-tools
